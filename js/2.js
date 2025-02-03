@@ -12,4 +12,30 @@ function volume(){
 }
 let z=volume();
 document.getElementById("AC").innerHTML= +z;
+
+
+
+
+
+function triangle(b,h){
+    return (1/2)*b*h;
+}
+let x=triangle(5,8);
+document.getElementById("at").innerHTML= +x;
+
+
+{
+ let x=5;
+ let y=2;
+ let z=x*y;
+document.getElementById("mul").innerHTML= +z;
+}
+
+const car={
+    modelname:"jaguar",
+    year:2020,
+    scope:"best to buy"
+
+};
+document.getElementById("cars").innerHTML= car.modelname + car.year +car.scope;
 }
