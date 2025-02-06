@@ -38,4 +38,27 @@ const car={
 
 };
 document.getElementById("cars").innerHTML= car.modelname + car.year +car.scope;
-}
+
+const person ={};
+person.firstname="bala";
+person.lastname="saravanan";
+person.age=24;
+x=person;
+person.nationality="tamil";
+document.getElementById("object").innerHTML=x.firstname +x.lastname +"   is  "+x.age + "   year old" + " and he is  " +x.nationality;
+
+const student ={
+    name:"bala",
+    class:"pg",
+     marks:{
+        maths :"75",
+        science :"75"
+     } 
+    }
+     document.getElementById("nest").innerHTML=student.name +"'s maths marks is " + student.marks.maths;
+  }
+
+
+
+
+
